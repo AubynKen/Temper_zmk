@@ -163,6 +163,16 @@
             bindings = <&kp ENTER>;
             key-positions = <12 22>;
         };
+
+        lh_backspace_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <13 14>;
+        };
+
+        rh_backspace_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <15 16>;
+        };
     };
 
     macros {
